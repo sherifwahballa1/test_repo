@@ -19,6 +19,7 @@ const googleMapsClient = require('@google/maps').createClient({
 // beauty.setTheme(theme);//set new theme
 
 const app = require("./main");
+const arraySum = require("./helper");
 const port = 3000;
 
 app.use( async (req, res, next) => {
@@ -52,6 +53,8 @@ app.use( async (req, res, next) => {
 });
 
 app.get("/", (req, res) => {
+  let sum = arraySum();
+  console.log('Array Sum: ', sum);
   return res.status(200).json({ message: "Hello World" });
 });
 
