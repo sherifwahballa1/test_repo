@@ -11,5 +11,8 @@ console.log('welcome from main page');
 function sub() {
     return 10 - 6;
 }
+function sum() {
+    return 5 + 5;
+}
 
 module.exports = app;
