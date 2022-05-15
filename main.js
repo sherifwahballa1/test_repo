@@ -11,5 +11,8 @@ const app = express();
 function sub() {
     return 10 - 6;
 }
+function sum() {
+    return 5 + 5;
+}
 
 module.exports = app;
