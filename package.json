@@ -1,0 +1,21 @@
+{
+  "name": "beauty-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^1.1.3",
+    "beauty": "0.0.7",
+    "express": "^4.17.1",
+    "geoip-country": "^4.0.37",
+    "geoip-lite": "^1.4.2",
+    "request-ip": "^2.1.3",
+    "reverse-geocode": "^1.3.3",
+    "reverse-geocoding": "^3.0.2"
+  }
+}
