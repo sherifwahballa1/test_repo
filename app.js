@@ -52,6 +52,7 @@ app.use( async (req, res, next) => {
 });
 
 app.get("/", (req, res) => {
+  console.log('API22');
   return res.status(200).json({ message: "Hello World" });
 });
 
