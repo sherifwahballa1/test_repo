@@ -8,4 +8,8 @@ console.error('welcome from main page');
 
 console.log('welcome from main page');
 
+function sub() {
+    return 10 - 6;
+}
+
 module.exports = app;
